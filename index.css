@@ -1,0 +1,454 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+nav > div {
+  display: inline-block;
+  padding: 20px 0px;
+}
+nav > div:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav > div:nth-child(2) {
+  float: right;
+}
+nav > div > div {
+  display: inline-block;
+  padding-right: 30px;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 90px;
+  margin-bottom: 20vh;
+  margin-left: 20px;
+}
+.firstSection h2 {
+  margin-top: -40px;
+}
+.sectionTitle {
+  margin-top: 60px;
+}
+.boyImg {
+  height: 400px;
+  width: 390px;
+  border-radius: 50%;
+}
+
+.p1 {
+  color: grey;
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+.buttonStyle {
+  background-image: linear-gradient(#ffeb3b, #ff8d00);
+  color: white;
+  padding: 13px 25px;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 15px 20px 0px #8f6b00;
+}
+
+.buttonStyle:hover {
+  color: orange;
+}
+.icons {
+  margin-top: 60px;
+  display: flex;
+  align-content: center;
+}
+.iconsImg {
+  color: orange;
+  margin-right: 70px;
+  font-size: 3rem;
+}
+
+.servicesSection {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+  margin-left: 25px;
+}
+.servicesSection h2 {
+  margin-top: -40px;
+}
+.servicesSection .cards {
+  margin-right: 5vw;
+}
+
+.servicesSection .cards .card {
+  padding: 30px;
+  height: 280px;
+  width: 200px;
+  background-color: white;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.servicesSection .cards div img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.servicesSection .cards button {
+  margin: auto;
+  display: block;
+  color: skyblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+.servicesSection .cards > div:nth-child(2) {
+  position: absolute;
+  margin-left: -300px;
+  margin-top: -150px;
+}
+.servicesSection .cards > div:nth-child(1) {
+  position: relative;
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+.servicesSection .card p {
+  color: black;
+  position: absolute;
+  /* top: 200px; */
+  /* bottom: 50px; */
+  padding-top: 150px;
+  width: 140px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0px auto 20vh;
+  width: 50vw;
+}
+.stats div div {
+  height: 80px;
+  width: 80px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  color: orange;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.stats div p:nth-child(3) {
+  color: orange;
+}
+.stats div p:nth-child(2) {
+  margin-top: 30px;
+  margin-bottom: 0;
+}
+
+.brands h1 {
+  font-size: 60px;
+}
+.companies {
+  background-color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.companies img {
+  border-radius: 50%;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border: 2px solid grey;
+}
+.companies img:nth-child(2) {
+  margin-top: 150px;
+  background-color: white;
+}
+.companies img:nth-child(3) {
+  margin-left: 150px;
+  background-color: white;
+}
+.companies img:nth-child(4) {
+  margin-top: -150px;
+}
+.companies img:nth-child(5) {
+  margin-left: -150px;
+  padding: 20px;
+  background-color: white;
+}
+.companiesSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-right: 60px;
+}
+.companiesSection .coloredDiv1 {
+  background-color: blue;
+  margin-bottom: 150px;
+}
+.companiesSection .coloredDiv2 {
+  background-color: #ffeb3b;
+  margin-top: 150px;
+}
+.companiesSection .coloredDiv1,
+.companiesSection .coloredDiv2 {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  border-radius: 50%;
+  margin-left: 250px;
+}
+.recentProject h2 {
+  margin-top: -20px;
+}
+.projectsCards {
+  display: flex;
+  justify-content: space-around;
+}
+.recentProject > div:first-child {
+  text-align: center;
+  margin-bottom: 20vh;
+}
+.projectsCards .card {
+  background-color: #141414;
+  padding: 20px 50px 50px;
+  text-align: center;
+  width: 180px;
+  border-radius: 12px;
+  box-shadow: -1px -1px grey;
+  transition-property: bottom;
+  transition-duration: 0.5s;
+  position: relative;
+  bottom: 0;
+}
+.projectsCards .card:hover {
+  bottom: 10px;
+}
+.projectsCards .card button {
+  padding: 10px 20px;
+  border-radius: 100px;
+  box-shadow: -3px 3px #007454;
+  transition: box-shadow 0.2s;
+  background-color: inherit;
+  border: none;
+  color: inherit;
+  width: 100px;
+  margin: auto;
+}
+.projectsCards .card button:hover {
+  box-shadow: 3px -3px #007454;
+}
+.projectsCards .card button span {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.pastWorkContainer {
+  margin: 40vh 0 200px;
+}
+.pastWorkContent {
+  margin: 10vh auto 10vh;
+  padding: 40px 0;
+  text-align: center;
+  width: 50vw;
+  background-color: #444343;
+  border: 5px solid white;
+  border-radius: 20px;
+}
+.pastWorkContent img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+}
+.pastWorkContent button {
+  background-color: white;
+  padding: 5px 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 20px;
+}
+.contact {
+  display: flex;
+  text-align: center;
+  padding: 0 10vw;
+}
+.contact form {
+  margin-left: 15vw;
+  width: 30vw;
+}
+.contact form input {
+  display: block;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding-left: 10px;
+}
+.contact form textarea {
+  display: block;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  width: 100%;
+}
+.contact form button {
+  margin-top: 40px;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+.box {
+  margin: auto;
+  width: 100vw;
+  height: 50vh;
+  background: radial-gradient(110% 60% at bottom, transparent 50%, #ffeb3b 51%);
+  transform: rotate(180deg) skewY(356deg);
+}
+.box2 {
+  width: 100vw;
+  height: 40vh;
+  background-color: #ffeb3b;
+  margin-top: -193px;
+  position: absolute;
+  text-align: center;
+}
+.box2 p {
+  color: rgb(155, 59, 59);
+}
+.box2 .icons i {
+  font-size: 50px;
+  margin: 50px auto;
+  color: #141414;
+}
+@media only screen and (max-width: 1000px) {
+  .options > div:not(:last-child) {
+    display: none;
+  }
+  .firstSection {
+    flex-direction: column;
+    padding: 0 40px;
+  }
+  .firstSection .icons i {
+    margin-bottom: 100px;
+  }
+  .boyImg {
+    width: 50vw;
+  }
+  .projectsCards {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .stats {
+    margin: 0px auto 30vh;
+    width: 90vw;
+  }
+  .servicesSection {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+  .servicesSection > div:nth-child(1) {
+    width: 80vw;
+  }
+  .servicesSection .cards {
+    margin-top: 100px;
+    margin-right: 0;
+  }
+  .servicesSection .cards .card {
+    width: 80vw;
+  }
+  .servicesSection .cards > div:nth-child(2) {
+    position: static;
+    margin-left: 0;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .servicesSection .cards > div:nth-child(1) {
+    position: relative;
+    margin-left: 0;
+  }
+  .servicesSection .card p {
+    width: 90%;
+  }
+  .projectsCards .card {
+    margin-bottom: 30px;
+  }
+  .contact {
+    flex-direction: column;
+  }
+  .contact form {
+    width: 80vw;
+    margin-left: 0;
+    margin-top: 10vh;
+  }
+  .brands h1 {
+    font-size: 40px;
+  }
+  .companies {
+    height: 250px;
+    width: 250px;
+  }
+  .companies img {
+    height: 75px;
+    width: 75px;
+    border: 2px solid grey;
+  }
+  .companies img:nth-child(2) {
+    margin-top: 125px;
+  }
+  .companies img:nth-child(3) {
+    margin-left: 125px;
+  }
+  .companies img:nth-child(4) {
+    margin-top: -125px;
+  }
+  .companies img:nth-child(5) {
+    margin-left: -125px;
+  }
+  .companiesSection {
+    margin-top: 100px;
+  }
+  .companiesSection .coloredDiv1,
+  .companiesSection .coloredDiv2 {
+    height: 175px;
+    width: 175px;
+    margin-left: 175px;
+  }
+  .companiesSection .coloredDiv1 {
+    margin-bottom: 150px;
+  }
+  .companiesSection .coloredDiv2 {
+    margin-top: 150px;
+  }
+  .stats div div {
+    height: 70px;
+    width: 70px;
+  }
+  .pastWorkContainer {
+    margin-top: 10vh;
+  }
+  .box {
+    height: 40vh;
+    background: radial-gradient(
+      110% 30% at bottom,
+      transparent 50%,
+      #ffeb3b 51%
+    );
+  }
+}
